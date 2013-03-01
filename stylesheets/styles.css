@@ -1,0 +1,25 @@
+body {
+  background-color: #881010;
+  font-family: 'Tauri', sans-serif;
+  color: #222222;
+}
+
+.main {
+  background-color: #BBBBFF;
+  border-style: solid;
+  border-color: #AA6666;
+  border-width: 3px;
+  padding: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.aka {
+  color: #444444;
+  font-size: 12px;
+}
+
+.name {
+  font-size: 18px;
+}
