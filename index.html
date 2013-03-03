@@ -1,49 +1,79 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Matthew Danskey by eland</title>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>Matthew Danskey</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
+<link rel="stylesheet" href="stylesheets/styles.css">
+<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+<script src="javascripts/scale.fix.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Matthew Danskey</h1>
-        <p class="header">Coding and living.</p>
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <h1 class="header">Matthew Danskey</h1>
+    <p class="header">Coding and living.</p>
 
 
 
-        <ul>
-          <li><a class="buttons github" href="https://github.com/eland">GitHub Profile</a></li>
-        </ul>
+    <ul>
+      <li><a class="buttons github" href="https://github.com/eland">GitHub Profile</a></li>
+    </ul>
 
-      </header>
-      <section>
-        <h3>Welcome to my GitHub Page.</h3>
+  </header>
+  <section>
+    <h3>Who I am</h3>
 
-<p>Very shortly, this will be home to a portfolio of what I've done and what I'm currently working on -- as well as a blog.</p>
+    <p>I'm a burgeoning programmer from the very first class of the Portland Code School. I've been doing contract work ever since for a local company, and I am in the market for a job that challenges me, recognizes that there's more to life than coding (even though coding is nifty) and a balance is to be had, and hopefully that wants to make the world a better place.</p>
 
-<h3>Who I am</h3>
+    <h3>Portfolio</h3>
+    <p>You may say, "Why, Danskey, your GitHub activity looks like a wasteland since the middle of November!" And to the public view, that is quite correct.</p>
+    <img src="/images/public_contribs.png">
 
-<p>I'm a burgeoning programmer from the very first class of the Portland Code School. I've been doing contract work ever since for a local company, and I am in the market for a job that challenges me, recognizes that there's more to life than coding (even though coding is nifty) and a balance is to be had, and hopefully that wants to make the world a better place.</p>
+    <p>I have committed over three hundred times to private repositories during that stretch.</p>
+    <img src="/images/full_contribs.png">
 
-<h3>Portfolio (with screenshots)</h3>
+    <p>Let's take a look at what I've been up to.</p>
 
-<p>Coming soon.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
-  </body>
+    <h4>EHR Encounter Interface</h4>
+    <img src="/images/ehr_rec.png">
+    <p> URL: Not available </p>
+    <p>This was a prototype application with the goal of making it easier for doctors to take down information (including with voice). The encounter would then be sent off to an existing Electronic Health Records system.</p>
+    <p>I worked extensively on the frontend, which was coded in CoffeeScript using Brunch with ChaplinJS and Handlebars templating.</p>
+    <p>Using Chaplin helped organize the code in the project and keep it manageable. The longest file was under 250 lines. Its mediator for publishing and subscribing to events is pretty slick. It is still maturing, though, and the documentation does leave something to be desired. Once you know what you're trying to do, looking at the source code for that particular function is advised.</p>
+    <p>The backend was a Rails 4 API that ran on JRuby and Torquebox. I became familiar with it as I occasionally needed to tweak or fix various API endpoints I was accessing via AJAX calls.</p>
+
+   <h4>TUPP</h4>
+   <img src="/images/tupp.png">
+   <p>URL: <a href="http://tupp.com/">http://tupp.com/</a></p>
+   <p>TUPP (Touch-Up Paint Programs) is a site I had the pleasure of fixing some issues and adding some features to. It gave me a new appreciation for writing maintainable code and following good practices in general. To properly add a new user type to a polymorphic table and the administrative interface, I had to create or edit twenty one files. Besides some rather unique ways of doing things, it was a straightforward Rails 3 application.</p>
+
+   <h4>Internal Sales App</h4>
+   <p>I recently added RESTful endpoints for two resources in this Rails 4 API, complete with tests written with RSpec and factory_girl.</p>
+
+   <h4>Vagrantfun</h4>
+   <img src="/images/vagrantfun.png">
+   <p>URL: <a href="http://github.com/eland/vagrantfun/">My fork on GitHub</a></p>
+   <p>I'm currently working on making a Vagrantfile with appropriate Chef-solo cookbooks so that developers (especially on the frontend) can run 'vagrant up' and be off to the races. Properly setting up a Rails backend running on JRuby and Torquebox attached to a Postgres database on a personal machine (for example) can take a fair bit of doing -- and potentially lead to inconsistent behavior due to this or that being different. Vagrant could make this a non-issue.</p>
+
+   <h4>On the side: Determined Mountain Goat</h4>
+   <p>pre-Alpha 0.0.02a screenshot:</p>
+   <img src="/images/dmg.png">
+   <p>URL: <a href="http://github.com/eland/determined-mountain-goat">determined-mountain-goat</a></p>
+   <p>This is the activity logging application I'm currently developing.</p>
+   <p>It's meant to track one or several actvities over a long period of time, and then give visualizations, metrics, and potentially inferential statistics on the data. It might be helpful in tracking progress or see if there's a pattern that leads to a long break.</p>
+
+  </section>
+  <footer>
+    <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+  </footer>
+</div>
+<!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+</body>
 </html>
