@@ -411,3 +411,14 @@ footer {
     color:#444;
   }
 }
+
+/* Custom tweaks from Matthew Danskey */
+
+a.menu-link {
+  background: none;
+}
+
+a.main:hover {
+  text-decoration: none;
+  color: #AF0011;
+}
