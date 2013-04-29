@@ -1,54 +1,24 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<title>Matthew Danskey</title>
-
-<link rel="stylesheet" href="stylesheets/styles.css">
-<link rel="stylesheet" href="stylesheets/pygment_trac.css">
-<script src="javascripts/scale.fix.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
-<body>
-<div class="wrapper">
-  <header>
-    <h1 class="header"><a class="main" href="/index.html">Matthew Danskey</a></h1>
-    <p class="header">Coding and living.</p>
-
-
-
-    <ul>
-      <li><a class="buttons github" href="https://github.com/eland">GitHub Profile</a></li>
-      <li><a class="buttons menu-link" href="/projects.html">Past Projects</a></li>
-      <li><a class="buttons" href="/resume_danskey.pdf">Résumé</a></li>
-    </ul>
-
-  </header>
-  <section>
+---
+title: index
+layout: default
+---
+<section>
     <h3>What I'm looking for</h3>
 
     <p>I'm a burgeoning programmer from the very first class of the Portland Code School. I just finished up some contract work for a local company. I am in the market for a job that challenges me, provides opportunity for growth, and recognizes that even though coding is fascinating and I love it, there's a balance to be had in life. Making the world a better place is also a plus.</p>
-    
+
     <h3>My Experience</h3>
-    
+
     <p>I've worked mainly in application-level Javascript (mainly ChaplinJS) as well as back-end programming in Rails. I'm interested in both back-end programming and Javascript frameworks, and <em>I learn whatever's thrown at me incredibly quickly.</em></p>
-    
+
     <h3>Currently Working on:</h3>
     <p>I'm working on an AngularJS application codenamed Determined Mountain Goat. The aim is to be able to record when and how long one does an activity (running, coding, etc) and then visualize that data. Inferential statistics might make their way into it as well.</p>
     <p>The backend API is close to complete enough to start on the frontend. I've chosen to write the API in Python with Flask and MongoDB, as inspired by <a href="https://speakerdeck.com/nicola/developing-restful-web-apis-with-python-flask-and-mongodb">these slides by Nicolai Iarocci</a>. I'm finding it super slick.</p>
 
     <p>Check out my progress on the API <a href="https://github.com/eland/dmg-api">right over here</a>.</p>
 
-  </section>
-  <footer>
-    <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-  </footer>
-</div>
-<!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <h3>My latest blog posts:</h3>
+    <a href={{ site.posts.last.url }}>{{ site.posts.last.title }}</a>
 
-</body>
-</html>
+
+</section>
